@@ -1,4 +1,4 @@
-/*====CONVERSION=====
+/*====CONVERSIONS=====>
 convert this string into number ex-1???"
 let score = "33"; // string
 let scoreNum = Number(score);
