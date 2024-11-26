@@ -12,8 +12,6 @@ type of = object
 (5)Properties of array :- index and length
 (6)Methods in array
 
-
-
 //(1)syntax , (3)excess and change!
 let myArr = [1, 2, 3, true, "Aditi"];
 console.log(myArr[0]); //1 {excess}
@@ -89,13 +87,15 @@ console.log(arr3);
 //(2)Spread Operator [...arr]
 let arr4 = [...arr1, ...arr2];
 console.log(arr4);
-//(VIII)Complex Arrays :- into simple array :- Array.flat(Infinity)
+//(VII)
+//(1)Complex Arrays :- into simple array :- Array.flat(Infinity)
 let comArr = [1, 2, 3, [4, 5, 6], 7, [8, [9, 10]]];
 let simpleArray = comArr.flat(Infinity);
 console.log(simpleArray);
-//(ix) is Array or not ? Array.isArray(arrName)
+//(2) is Array or not ? Array.isArray(arrName)
 console.log(Array.isArray(simpleArray)); //true return boolean
-//(x) Any Ds into  Array  ?//Array.from()
+//(VIII)  Array.from(ds) and Array.of(set of elements)
+//(1)Any Ds into  Array  ?//Array.from()
 let myName = "Aditi Pathak";
 let myNameArr = Array.from(myName);
 console.log(myNameArr);
@@ -110,7 +110,7 @@ let myObjArr = Array.from(Object.keys(obj));
 ::: Object.values(obj) will create object from values of the object["Aditi Pathak",26,blr]}
 :::Object.entries(obj) will create complex array!*/
 console.log(myObjArr);
-//(XI)Array.of(set of elements)
+//(2)Array.of(set of elements)
 let score1 = 100;
 let score2 = 200;
 let score3 = 300;
