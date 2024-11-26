@@ -12,7 +12,6 @@ console.log(myDate.getDay()); // 0 sunday
 console.log(myDate.getMonth()); // 10-nov (js month starts from 0)
 console.log(myDate.getMonth() + 1); // 11-nov (js month starts from 0)
 
-console.log(`Todays day,date,time,month is ${myDate.toDateString()} ${myDate.toLocaleString()} ${myDate.getMonth()+1}`)
 
 
 //(3)How to create Specific Date ?(2)
